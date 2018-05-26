@@ -3,6 +3,8 @@ winston_address='winston address'
 winston_port=11111
 winston_address_cnmi='CNMI winston address'
 winston_port_cnmi=11111
+working_dir='/path/to/working/directory'
+
 
 duration      = 600  # DON'T CHANGE THIS!
 latency       = 30.0 # seconds between timestamps and end of data window
@@ -13,7 +15,7 @@ window_length = 30   # window length for each calculation [seconds]
 overlap       = 15   # seconds
 min_chan      = 3
 mcthresh      = 0.6  # where to draw the threshold line in MCCM plot
-network       = AVO
+network       = 'AVO'
 
 # Infrasound channels list
 arrays=[
