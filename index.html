@@ -543,21 +543,14 @@ input:disabled {
     
     	 <!-- networks -->
          <select id="network" class="nav">
-            <option value="CNMI" class="nav">CNMI</option>
-            <option value="AVO" class="nav">AVO</option>
+            <option value="CVO" class="nav">CVO</option>
 		</select>
 	    
 	    <!-- subnets -->
-	      <select id="CNMISubnets" class="nav subnet">
-             <option value="Saipan" class="nav">Saipan Array</option>
-             <option value="Sarigan" class="nav">Sarigan Array</option>
-	      </select>
-	      <select id="AVOSubnets" class="nav subnet">
-             <option value="Sand Point" class="nav">Sand Point Array</option>
-             <option value="Akutan" class="nav">Akutan Array</option>
-             <option value="Okmok" class="nav">Okmok Array</option>
-             <option value="Cleveland" class="nav">Cleveland Array</option>
-             <option value="Adak" class="nav">Adak Array</option>
+	      <select id="CVOSubnets" class="nav subnet">
+             <option value="Bear" class="nav">Bear Array</option>
+             <option value="PR03" class="nav">PR03 Array</option>
+             <option value="PR04" class="nav">PR04 Array</option>
 	      </select>
 	   
 	  <a class="nav" title="Load a specific time" name="absoluteTime" href="#absoluteTime" rel="leanModal">Absolute time</a>
@@ -1112,7 +1105,7 @@ function init() {
 	});
 
 	// fire subnet change trigger to get things rolling
-		$("#network").val("AVO").prop('selected', true);
+		$("#network").val("CVO").prop('selected', true);
 	$("#network").trigger("change");
 	
 }

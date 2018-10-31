@@ -1,4 +1,4 @@
-#!/Users/awech/anaconda/bin/python
+#!/opt/anaconda/envs/infrasound/bin/python
 # -*- coding: utf-8 -*-
 """
 Created on 24-Apr-2018
